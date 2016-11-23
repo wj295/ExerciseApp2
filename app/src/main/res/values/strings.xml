@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ExerciseApp2</string>
+    <string name="buttonOnClickMessage">TestMsg</string>
 </resources>
