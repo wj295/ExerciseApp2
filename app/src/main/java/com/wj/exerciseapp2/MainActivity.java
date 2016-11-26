@@ -19,8 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
         //button = (Button) findViewById(R.id.button);
         TextView textView = (TextView) findViewById(R.id.textView2);
-
-        Toast toast = Toast.makeText(this, R.string.buttonOnClickMessage + textView.getText().toString(), Toast.LENGTH_SHORT);
+        TextView editTest = (TextView) findViewById(R.id.editText);
+        String str = R.string.buttonOnClickMessage + textView.getText().toString() + "@" + editTest.getText();
+        Toast toast = Toast.makeText(this, str, Toast.LENGTH_SHORT);
         toast.show();
     }
 }
